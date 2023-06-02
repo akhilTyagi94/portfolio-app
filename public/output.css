@@ -573,6 +573,58 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-40{
+  z-index: 40;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-5\/6{
+  width: 83.333333%;
+}
+
 .resize{
   resize: both;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #010026;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
