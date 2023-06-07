@@ -34,7 +34,7 @@ const Landing = ({ setSelectedPage }) => {
       <div className="z-30 basis-2/5 mt-12 md:mt-32">
         {/* Headings */}
         <motion.div
-          intial="hidden"
+          initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
@@ -61,7 +61,7 @@ const Landing = ({ setSelectedPage }) => {
 
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
-          intial="hidden"
+          initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 0.2, duration: 0.5 }}
@@ -90,7 +90,7 @@ const Landing = ({ setSelectedPage }) => {
 
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
-          intial="hidden"
+          initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 0.4, duration: 0.5 }}
